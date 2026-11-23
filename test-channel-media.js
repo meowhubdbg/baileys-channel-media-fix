@@ -67,7 +67,7 @@ async function main() {
         const mmPath = require.resolve('@whiskeysockets/baileys/lib/Utils/messages-media.js');
         if (!fs.readFileSync(mmPath, 'utf8').includes('server_thumb_gen')) {
             console.error('The channel-media fix is not installed on this Baileys.');
-            console.error('Run: npm install "@whiskeysockets/baileys@git+https://github.com/meowguck-art/Baileys.git#fix-newsletter-media-attrs"');
+            console.error('Run: npm install "@whiskeysockets/baileys@git+https://github.com/meowhubdbg/Baileys.git#fix-newsletter-media-attrs"');
             process.exit(1);
         }
     } catch {
